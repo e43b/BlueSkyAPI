@@ -99,6 +99,27 @@ Recupere as publicações contendo mídia feitas por um perfil específico.
 https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=did%3Aplc%3Aqrlodsav63erq6ukjv7slvp3&filter=posts_with_media&limit=30
 ```
 
+## Obtenção de Perfis Seguidos
+
+### Descrição
+
+Recupere a lista de Perfis seguidos de um perfil específico.
+
+### Endpoint
+
+`GET https://public.api.bsky.app/xrpc/app.bsky.graph.getFollows?actor={did}&limit={limit}`
+
+### Parâmetros
+
+- `actor`: Substitua `{did}` pelo DID do perfil.
+- `limit`: Define o número máximo de seguidores a serem retornados. O valor máximo é `100`.
+
+### Exemplo de URL
+
+```
+https://public.api.bsky.app/xrpc/app.bsky.graph.getFollows?actor=did%3Aplc%3Aqrlodsav63erq6ukjv7slvp3&limit=30
+```
+
 ## Obtenção de Seguidores
 
 ### Descrição
