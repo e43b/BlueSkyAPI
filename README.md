@@ -239,4 +239,3 @@ Other examples:
    URL:
    ```
    https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Ffarofa.com.br%2Fapp.bsky.feed.post%2F3l33ldwwlcc25&depth=10
-```
