@@ -1,6 +1,4 @@
-# BlueSkyAPI
-
-# Documentação da API para Consulta de Perfis e Publicações do BlueSky
+# BlueSkyAPI: Documentação da API para Consulta de Perfis e Publicações do BlueSky
 
 ## Introdução
 
