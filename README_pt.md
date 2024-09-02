@@ -1,5 +1,7 @@
 # BlueSkyAPI: Documentação da API para Consulta de Perfis e Publicações do BlueSky
 
+[English](README.md) | Português
+
 ## Introdução
 
 Esta documentação descreve as APIs fornecidas para interagir com perfis e publicações na plataforma Bluesky. Estas APIs permitem a resolução de IDs descentralizados (DID), recuperação de informações de perfil, obtenção de posts, além de pesquisa de perfis e publicações.
