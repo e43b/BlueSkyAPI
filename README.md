@@ -99,6 +99,27 @@ Retrieve posts containing media made by a specific profile.
 https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=did%3Aplc%3Aqrlodsav63erq6ukjv7slvp3&filter=posts_with_media&limit=30
 ```
 
+## Fetching Followed Profiles
+
+### Description
+
+Retrieve the list of profiles followed by a specific profile.
+
+### Endpoint
+
+`GET https://public.api.bsky.app/xrpc/app.bsky.graph.getFollows?actor={did}&limit={limit}`
+
+### Parameters
+
+- `actor`: Replace `{did}` with the profile's DID.
+- `limit`: Sets the maximum number of followed profiles to be returned. The maximum value is `100`.
+
+### Example URL
+
+```
+https://public.api.bsky.app/xrpc/app.bsky.graph.getFollows?actor=did%3Aplc%3Aqrlodsav63erq6ukjv7slvp3&limit=30
+```
+
 ## Fetching Followers
 
 ### Description
